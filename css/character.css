@@ -26,7 +26,7 @@ header h1{
 header img{
     border-radius: 170px;
     width: 300px;
-    border: 20px solid hotpink;
+    border: 20px solid white;
 }
 
 main{
@@ -54,11 +54,11 @@ a{
 
 a:hover{
 	color: white;
-	background-color: black
+	background-color: yellow
 }
 
 footer{
-	background-color: yellow;
+	background-color: brown;
 	text-align: center;
 	color: black;
 	padding: 50px;
