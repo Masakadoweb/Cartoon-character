@@ -1,0 +1,83 @@
+body{
+	/*The text will appear on the far left of the page*/
+	margin: 0;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+header{
+	background-color: lightpink;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+h1, h2{
+	font-family: 'Press Start 2P', cursive;
+}
+
+header h1{
+	color: yellow;
+	font-size: 50px; 
+	/*making fonts in case some computers don't support the first one*/
+}
+
+header img{
+    border-radius: 170px;
+    width: 300px;
+    border: 20px solid hotpink;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	/*This changes the margins on all sides. good for accounting for different viewing devices*/
+	padding: 20px;
+
+}
+
+main img{
+	max-width: 100%;
+}
+
+h2{
+	font-size: 35px;
+	color: hotpink;
+	margin: 40px 0 10px;
+	/*Dimensions are read from top, bottom, and right*/
+}
+
+a{
+	color: #e70c19;
+}
+
+a:hover{
+	color: white;
+	background-color: black
+}
+
+footer{
+	background-color: yellow;
+	text-align: center;
+	color: black;
+	padding: 50px;
+}
+
+footer p{
+	margin: 0;
+}
+footer a{
+	color: purple;
+}
+
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
+p.caption{
+	color: #999999;
+	font-style: italic;
+	margin-top: 0;
+}
